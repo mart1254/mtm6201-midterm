@@ -5,43 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+
+    <script src="https://kit.fontawesome.com/2c9b151953.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/wuk5shc.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
+            <div class="top-nav-container-flex">
+                <div id="ham-menu-toggle">
+                    <!-- Hidden checkbox so :checked state is available in css -->
+                    <input type="checkbox"/>
+                   
+                    <!-- Spans to act as hambuger lines  -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
+                    <ul id="ham-menu">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About</a></li>
+                       <li><a href="#">Contact</a></li>
+                       <li><a href="http://833studios.com/" target="_blank">See More</a></li>
+                    </ul>
+                </div> <!-- End of menu-toggle -->
+
+                <div class="logo">
+                    <img src="images/mc_logo-v2.svg" alt="Mycraft logo">
+                </div> <!-- End of logo container -->
+
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div> <!-- End of top-nav-container-flex -->
+
+            <div class="bottom-nav-container-flex">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div> <!-- End of bottom-nav-container-flex -->
         </nav>
+        <h1>Contact Us</h1>
     </header>
 
     <main>
-        <section>
+        <section class="section-contact-form">
             <div class="container">
-                <!--  -->
+                <h2>How Can We Help You?</h2>
+                <div class="card-contact-form">
+                    <form class="contact-form">
+                        <label for="youremail">Email</label>
+                        <input type="email" id="youremail" name="youremail">
+                        <label for="yourmessage">Message</label>
+                        <textarea id="yourmessage" name="yourmessage" rows="10" cols="50"></textarea><br>
+                    </form>
+                </div> <!-- card-contact-form -->
+            </div> <!-- End of container -->
+        </section>
+
+        <section class="section-resources">
+            <div class="container">
+                <h2>Resources</h2>
+                <div class="card-resources">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.</p>
+
+                    <button>MORE</button>
+                </div>
             </div>
         </section>
 
         <section>
             <div class="container">
-                <!--  -->
+                <h2>Contact Options</h2>
+                <div class="card-contact-options">
+                    <div class="contact-phone">
+                        <div class="icon-phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <button>CALL</button>
+                    </div> <!-- End of contact-phone -->
+                    <div class="hours-open">
+                        <h3>Hours of opperation</h3>
+                        <p>Sun <br>12:00 AM-11:59 PM<br>Mon<br>12:00 AM-11:59 PM<br>Tue<br>12:00 AM-11:59 PM<br></p>
+                    </div> <!-- End of hours-open -->
+                    <div class="contact-text">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <button>TEXT</button>
+                    </div> <!-- End of contact-text -->     
+                </div> <!-- End of card-contact-options -->
             </div>
         </section>
-
-        <section>
-            <div class="container">
-                <!--  -->
-            </div>
-        </section>
-
     </main>
 
-
-
-
     <footer>
-        <div class="container">
-            <!--  -->
+        <div class="container-footer">
+            <div class="account">
+                <p>Account</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="shipping">
+                <p>Shipping</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="services">
+                <p>Services</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="tracking">
+                <p>Tracking</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <!-- Add social media icons through font-awesome -->
         </div>
     </footer>
     

@@ -5,43 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+
+    <script src="https://kit.fontawesome.com/2c9b151953.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/wuk5shc.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
+            <div class="top-nav-container-flex">
+                <div id="ham-menu-toggle">
+                    <!-- Hidden checkbox so :checked state is available in css -->
+                    <input type="checkbox"/>
+                   
+                    <!-- Spans to act as hambuger lines  -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
+                    <ul id="ham-menu">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                       <li><a href="http://833studios.com/" target="_blank">See More</a></li>
+                    </ul>
+
+                </div> <!-- End of menu-toggle -->
+
+                <div class="logo">
+                    <img src="images/mc_logo-v2.svg" alt="Mycraft logo">
+                </div> <!-- End of logo container -->
+
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                
+            </div> <!-- End of top-nav-container-flex -->
+
+            <div class="bottom-nav-container-flex">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> <!-- End of bottom-nav-container-flex -->
         </nav>
+        <h1>Our Company</h1>
     </header>
 
     <main>
-        <section>
-            <div class="container">
-                <!--  -->
-            </div>
+        <section class="section-our-staff">
+            <div class="container-staff"> <!-- Make slightly bigger than container -->
+                <h2>Our Staff</h2>
+                <div class="container-img-staff">
+                    <picture>
+                        <source srcset="images/MARTIN_D_15.jpg"
+                        media="(min-width: 1200px)">
+
+                        <source srcset="images/MARTIN_D_15-1000_x_1000.jpg"
+                        media="(min-width: 760px)">
+
+                        <source srcset="images/MARTIN_D_15-500_x_500.jpg"
+                        media="(min-width: 480px)">
+
+                        <img class="orig-img" src="images/MARTIN_D_15-1000_x_1000.jpg" alt="Staff member">
+                    </picture>
+                </div> <!-- End of container-img-staff -->
+
+                <div class="container">
+                    <div class="container-staff-flex">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.
+                        d ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliqua</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.
+                        d ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliqua</p>
+                    </div>
+                </div> <!-- End of container -->
+            </div> <!-- End of container-staff -->
         </section>
 
-        <section>
-            <div class="container">
-                <!--  -->
-            </div>
+        <section class="section-our-mission">
+            <div class="container-mission"> <!-- Make slightly bigger than container -->
+                <h2>Our Staff</h2>
+                <div class="container-img-mission">
+                    <picture>
+                        <source srcset="images/MARTIN_D_16.jpg"
+                        media="(min-width: 1200px)">
+
+                        <source srcset="images/MARTIN_D_16-1000_x_1000.jpg"
+                        media="(min-width: 760px)">
+
+                        <source srcset="images/MARTIN_D_16-500_x_500.jpg"
+                        media="(min-width: 480px)">
+
+                        <img class="orig-img" src="images/MARTIN_D_16-1000_x_1000.jpg" alt="Person holding green leaf">
+                    </picture>
+                </div> <!-- End of container-img-mission -->
+
+                <div class="container">
+                    <div class="container-mission-flex">
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.
+                        d ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliqua</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.
+                        d ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliqua</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra</p>
+                    </div>
+                </div> <!-- End of container -->
+            </div> <!-- End of container-mission -->
         </section>
 
-        <section>
+        <section class="section-factory">
             <div class="container">
-                <!--  -->
+                <div class="card-factory">
+                    <a class="card" href="#">
+                        <div class="card-content">
+                            <button><i class="fa-solid fa-circle-play"></i></button>
+                            <img src="images/MARTIN_D_17-500_x_500.jpg" alt="MC Designs' Factory">
+                            <div class="card-description">
+                                <p>Take a tour of our factory</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> <!-- End of card-factory -->
             </div>
         </section>
-
     </main>
 
 
 
 
     <footer>
-        <div class="container">
-            <!--  -->
+        <div class="container-footer">
+            <div class="account">
+                <p>Account</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="shipping">
+                <p>Shipping</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="services">
+                <p>Services</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <div class="tracking">
+                <p>Tracking</p>
+                <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
+            </div>
+            <!-- Add social media icons through font-awesome -->
         </div>
     </footer>
     
