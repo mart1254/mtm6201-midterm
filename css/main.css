@@ -56,4 +56,171 @@ table {
 
 body {
     background-color: blueviolet;
+
+	/* font-family: "copperplate", serif;
+	font-weight: 700;
+	font-style: normal; */
+
+	/* font-family: "objektiv-mk1", sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+
+	/* font-family: "objektiv-mk1", sans-serif;
+	font-weight: 400;
+	font-style: italic; */
+
+	/* font-family: "objektiv-mk1", sans-serif;
+	font-weight: 500;
+	font-style: normal; */
+
+	/* font-family: 'Crimson Pro', serif; */
+
+
+
+
+	/* font-family: "copperplate", serif;
+	font-weight: 700;
+	font-style: normal; */
 }
+
+
+
+
+
+
+
+/* Code below works, use as template for cards */
+
+.card-test-image img {
+	width: 100%;
+
+}
+
+.card-test-image {
+	display: block;
+	width: 500px;
+	height: auto;
+	text-decoration: none;
+	background-color: blue;
+}
+
+
+.card-test-image div {
+	position: relative;
+}
+
+.card-test-image p {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Old code */
+
+
+
+
+
+
+
+/* html-code
+<div class="card-test">
+	<a class="card-test-image" href="contact.html">
+		<div>
+			<img src="images/MARTIN_D_7-1024_x_1024.jpg" alt="">
+		</div>
+	</a>
+</div> */
+
+
+
+/* .card-test-image img {
+	width: 100%;
+
+}
+
+.card-test-image {
+	display: block;
+	width: 270px;
+	height: 270px;
+	text-decoration: none;
+	background-color: blue;
+}
+
+KHAAAAAAAN
+
+.card-test-image div {
+	position: relative;
+}
+
+.card-test-image p {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+} */
+
+
+
+/* button { */
+	/* border: none; */
+	/* padding: none; */
+	
+	/* background-image: url(../images/MARTIN_D_3-1024_x_1024.jpg);
+	background-size: cover; */
+
+/* } */
+
+
+/* .sandy div {
+	width: 20px;
+	height: 20px;
+	background-color: blanchedalmond;
+} */
+
+
+/* .cat {
+	position: relative;
+	
+}
+
+.cat p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-750%, -50%);
+
+} */
+
+
+
+/* .cat div {
+	width: 20em;
+	height: 20em;
+	background-color: aqua;
+} */
+
+
+
+
+/* .cat img{
+	width: 100%;
+} */
+
+
+/* .card-test {
+	width: 80px;
+	height: 80px;
+	background-color: aqua;
+} */

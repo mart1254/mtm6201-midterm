@@ -5,28 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midterm</title>
+
+    <script src="https://kit.fontawesome.com/2c9b151953.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/wuk5shc.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 
 <body>
     <header>
-        <nav>
+        <nav role="navigation">
+            <div class="top-nav-container-flex">
+                <div id="ham-menu-toggle">
+                    <!-- Hidden checkbox so :checked state is available in css -->
+                    <input type="checkbox"/>
+                   
+                    <!-- Spans to act as hambuger lines  -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
+                    <ul id="ham-menu">
+                       <li><a href="#">Home</a></li>
+                       <li><a href="about.html">About</a></li>
+                       <li><a href="contact.html">Contact</a></li>
+                       <li><a href="http://833studios.com/" target="_blank">See More</a></li>
+                    </ul>
+
+                </div> <!-- End of menu-toggle -->
+
+                <div class="logo">
+                    <img src="images/mc_logo-v2.svg" alt="Mycraft logo">
+                </div> <!-- End of logo container -->
+
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                
+            </div> <!-- End of top-nav-container-flex -->
+
+            <div class="bottom-nav-container-flex">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> <!-- End of bottom-nav-container-flex -->
         </nav>
+        <!--  -->
+        <div class="header-new-look">
+            <div class="container">
+                <h1>Need a New Look?</h1>
+                <div class="new-look">
+                    <!-- <img src="images/MARTIN_D_20-1024_x_683.jpg" alt="Person's wrist showcasing rose-gold watch underneath brightly coloured shirt sleeve"> -->
+                </div> <!-- End of new-look -->
+            </div> <!-- End of container -->
+        </div> <!-- End of header-new-look -->
     </header>
 
+
+
+
     <main>
-        <section>
+        <section class="showcase">    <!-- Remember to put Art Direction after CSS/media queries -->
             <div class="container">
+                <div class="showcase-grid-container">
+                    <div class="card-shirts">
+                        <!-- <img src="images/MARTIN_D_9-1024_x_768.jpg" alt="Various dress shirts featuring different designs hung up on white clothing rack"> -->
+                        <div class="cards-description">
+                            <p>Shirts starting from CA $12.99</p>
+                        </div>
+                    </div> <!-- End of card-shirts -->
+                    <div class="card-make_your_own">
+                        <!-- <img src="images/MARTIN_D_11-1024_x_576.jpg" alt="Two piles of a folded assortment of coloured fabric"> -->
+                        <div class="cards-description">
+                            <p>Can't find something you like?<br>Try makming your own!</p>
+                        </div>
+                        <div class="sub-cards-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Velit egestas dui id ornare arcu odio ut sem. Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Lacus viverra vitae congue eu. Arcu cursus euismod quis isse. Ut sem viverra aliquet eget sit amet tellus.</p>
+                        </div>
+                    </div> <!-- End of card-make_your_own -->
+                    <div class="card-pants">
+                        <!-- <img src="images/MARTIN_D_13-682_x_1024.jpg" alt="Person wearing cuffed fadded green pants infront of shrubs"> -->
+                        <div class="cards-description">
+                            <p>Pants starting from CA $12.99</p>
+                        </div>
+                    </div> <!-- End of card-pants -->
+                    <div class="card-coats">
+                        <!-- <img src="images/MARTIN_D_10-685_x_1024.jpg" alt="Man wearing black leather coat with fur collar"> -->
+                        <div class="cards-description">
+                            <p>Coats to help you get through winter</p>
+                        </div>
+                    </div> <!-- End of card-coats -->
+                    <div class="card-show_off_design">
+                        <!-- <img src="images/MARTIN_D_12-1024_x_682.jpg" alt="Two women wearing intricate patterned brightly coloured hoodies"> -->
+                        <div class="cards-description">
+                            <p>Show off your designs!</p>
+                        </div>
+                    </div> <!-- End of card-show_off_design -->
+                </div> <!-- End of showcase-grid-container -->
+                <button>More</button>
                 <!--  -->
-            </div>
+            </div> <!-- End of container -->
         </section>
 
-        <section>
+        <section class="section-custom-designs">
             <div class="container">
+                <h2>Explore Custom Designs</h2>
+                <div class="custom-designs">
+                    <!-- <img src="/images/MARTIN_D_21-1024_x_768.jpg" alt="Three shoes on dark wooden shelf">  -->
+                </div>
                 <!--  -->
-            </div>
+            </div> <!-- End of container -->
+        </section>
+
+        <section class="section-accessories">
+            <div class="container">
+                <h3>Accessories</h3>
+                <div class="accessories-grid-container">
+
+                    <!-- <div class="card-hats">
+                        <p>Hats</p>                                     
+                    </div> -->
+                </div>
+                <div class="card-belts">
+                    <p>Belts</p>
+                </div>
+
+                
+                    
+
+                    
+                    <!-- Code below works, use as template for cards-->
+
+                    <!-- <div class="khan">
+                        <a class="card-test-image" href="contact.html">
+                            <div>
+                                <p>KHAAAAN</p>
+                                <picture>
+                                    <source srcset="images/MARTIN_D_8.jpg"
+                                    media="(min-width: 1200px)">
+
+                                    <source srcset="images/MARTIN_D_8-1000_x_426.jpg"
+                                    media="(min-width: 760px)">
+
+                                    <source srcset="images/MARTIN_D_8-500_x_212.jpg"
+                                    media="(min-width: 480px)">
+
+                                    <img class="orig-img" src="images/MARTIN_D_8-1000_x_426.jpg" alt="test">
+                                </picture>
+                            </div> 
+                        </a>
+                    </div> -->
+                    
+                    <!-- <img src="images/MARTIN_D_8-500_x_212.jpg" alt=""> -->
+
+
+
+                    <picture>
+                        <source srcset="images/MARTIN_D_8.jpg"
+                        media="(min-width: 1200px)">
+
+                        <source srcset="images/MARTIN_D_8-1000_x_426.jpg"
+                        media="(min-width: 760px)">
+
+                        <source srcset="images/MARTIN_D_8-500_x_212.jpg"
+                        media="(min-width: 480px)">
+
+                        <img class="orig-img" src="images/MARTIN_D_8-1000_x_426.jpg" alt="test">
+                    </picture>
+
+                    <img src="z-logo.png" alt="">
+                   
+
+
+
+                
+
+                  
+
+
+
+                <!--  -->
+            </div> <!-- End of container -->
         </section>
 
         <section>
@@ -52,3 +219,41 @@
 
 
 </html>
+
+
+
+
+<!-- Old code -->
+
+<!-- This code works -->
+                        <!-- <a class="card-test-image" href="contact.html">
+                            <div>
+                                <p>KHAAAAN</p>
+                                <img src="images/MARTIN_D_7-1024_x_1024.jpg" alt="">
+                            </div> 
+                        </a> -->
+
+
+ <!-- <div class="card-test">
+                        <a class="card-test-image" href="contact.html">
+                            <div>
+                                <p>KHAAAAN</p>
+                                <img src="images/MARTIN_D_7-1024_x_1024.jpg" alt="">
+                            </div> 
+                        </a>
+                    </div> -->
+
+
+<!-- <a class="sandy" href="about.html">
+                        <div>
+                            <img src="images/MARTIN_D_8-1024_x_1024.jpg" alt="">
+                            <p>Just some text</p>
+                        </div>
+                    </a> -->
+
+
+<!-- <button> Sandy
+                    <img src="images/MARTIN_D_3-1024_x_1024.jpg">
+                  </button> -->
+
+
