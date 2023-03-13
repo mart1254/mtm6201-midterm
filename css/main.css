@@ -53,9 +53,14 @@ table {
 /* ------------------------------------------------------------
                         My Styles
 --------------------------------------------------------------- */
+:root {
+	--textColor: #291F1E;
+	/* --backgroundColor:  */
+}
+
 
 body {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 
 	/* font-family: "copperplate", serif;
 	font-weight: 700;
@@ -91,7 +96,7 @@ body {
 
 /* Code below works, use as template for cards */
 
-.card-test-image img {
+/* .card-test-image img {
 	width: 100%;
 
 }
@@ -114,7 +119,7 @@ body {
 	top: 50%;
 	width: 100%;
 	text-align: center;
-}
+} */
 
 
 
