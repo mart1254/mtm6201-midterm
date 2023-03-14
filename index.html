@@ -19,7 +19,7 @@
 
 
 <body>
-    <header>
+    <header id="top" role="banner">
         <nav role="navigation">
             <div class="top-nav-container-flex">
                 <div id="ham-menu-toggle">
@@ -44,16 +44,15 @@
                     <img src="images/mc_logo-v2.svg" alt="Mycraft logo">
                 </div> <!-- End of logo container -->
 
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button><i class="fa-solid fa-basket-shopping"></i></button>
-                
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="shop-btn"><i class="fa-solid fa-basket-shopping"></i></button>
             </div> <!-- End of top-nav-container-flex -->
 
             <div class="bottom-nav-container-flex">
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div> <!-- End of bottom-nav-container-flex -->
         </nav>
@@ -90,8 +89,8 @@
 
 
 
-    <main>
-        <section class="section-showcase">    <!-- Remember to put Art Direction after CSS/media queries -->
+    <main id="main" role="main">
+        <section class="section-showcase"> 
             <div class="container">
                 <div class="showcase-grid-container">
                     <div class="card-shirts">
@@ -196,7 +195,7 @@
                     </div> <!-- End of card-show_off_design -->
                 </div> <!-- End of showcase-grid-container -->
 
-                <button>More</button>
+                <button class="page-btn-primary">More</button>
                 
             </div> <!-- End of container -->
         </section>
@@ -355,142 +354,143 @@
 
         <section class="section-local-artists">
             <div class="container">
-                <!-- <h3>Designs by local artists</h3> -->
-                <div class="container-local-artists">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <!-- <p>Shoes</p> -->
-                            <h3>Designs by local artists</h3>
-                            <picture>
-                                <source srcset="images/MARTIN_D_14.jpg"
-                                media="(min-width: 1200px)">
+                <div class="local-artists-grid-container">
+                    <!-- <h3>Designs by local artists</h3> -->
+                    <div class="container-local-artists">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <!-- <p>Shoes</p> -->
+                                <h3>Designs <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; by <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;local <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; artists</h3>
+                                <picture>
+                                    <source srcset="images/MARTIN_D_14.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_14-1000_x_570.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_14-1000_x_570.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_14-500_x_285.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_14-500_x_285.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_14-1000_x_570.jpg" alt="Woman sitting on groud beside red wall">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- End of container-local-artists -->
+                                    <img class="orig-img" src="images/MARTIN_D_14-1000_x_570.jpg" alt="Woman sitting on groud beside red wall">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- End of container-local-artists -->
 
-                <div class="container-local-artist-one">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_18.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-one">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_18.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_18-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_18-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_18-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_18-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_18-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-one -->
+                                    <img class="orig-img" src="images/MARTIN_D_18-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-one -->
 
-                <div class="container-local-artist-two">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_19.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-two">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_19.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_19-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_19-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_19-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_19-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_19-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-two -->
+                                    <img class="orig-img" src="images/MARTIN_D_19-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-two -->
 
-                <div class="container-local-artist-three">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_20.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-three">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_20.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_20-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_20-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_20-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_20-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_20-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-three -->
+                                    <img class="orig-img" src="images/MARTIN_D_20-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-three -->
 
-                <div class="container-local-artist-four">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_21.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-four">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_21.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_21-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_21-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_21-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_21-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_21-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-four -->
+                                    <img class="orig-img" src="images/MARTIN_D_21-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-four -->
 
-                <div class="container-local-artist-five">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_22.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-five">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_22.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_22-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_22-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_22-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_22-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_22-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-five -->
+                                    <img class="orig-img" src="images/MARTIN_D_22-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-five -->
 
-                <div class="container-local-artist-six">
-                    <a class="tile" href="#">
-                        <div class="tile-content">
-                            <picture>
-                                <source srcset="images/MARTIN_D_23.jpg"
-                                media="(min-width: 1200px)">
+                    <div class="container-local-artist-six">
+                        <a class="tile" href="#">
+                            <div class="tile-content">
+                                <picture>
+                                    <source srcset="images/MARTIN_D_23.jpg"
+                                    media="(min-width: 1200px)">
 
-                                <source srcset="images/MARTIN_D_23-1000_x_1000.jpg"
-                                media="(min-width: 760px)">
+                                    <source srcset="images/MARTIN_D_23-1000_x_1000.jpg"
+                                    media="(min-width: 760px)">
 
-                                <source srcset="images/MARTIN_D_23-500_x_500.jpg"
-                                media="(min-width: 480px)">
+                                    <source srcset="images/MARTIN_D_23-500_x_500.jpg"
+                                    media="(min-width: 480px)">
 
-                                <img class="orig-img" src="images/MARTIN_D_23-1000_x_1000.jpg" alt="Local artist">
-                            </picture>
-                        </div>
-                    </a>
-                </div> <!-- container-local-artist-six -->
-                <!--  -->
+                                    <img class="orig-img" src="images/MARTIN_D_23-1000_x_1000.jpg" alt="Local artist">
+                                </picture>
+                            </div>
+                        </a>
+                    </div> <!-- container-local-artist-six -->
+                </div> <!--  -->
             </div>
         </section>
     </main>
@@ -517,6 +517,18 @@
                 <p>Molestie nunc non blandit massa enim nec. Donec pretium vulputate sapien</p>
             </div>
             <!-- Add social media icons through font-awesome -->
+            <div class="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="reddit">
+                <i class="fa-brands fa-reddit"></i>
+            </div>
+            <div class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="pinterest">
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
         </div>
     </footer>
 
